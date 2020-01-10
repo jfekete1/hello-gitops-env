@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: hello-gitops
-        image: feketej/hello-gitops
+        image: feketej/hello-gitops:aad914b14ce2a2f15391b527833295ff456dd239
         resources:
           requests:
             cpu: 200m
